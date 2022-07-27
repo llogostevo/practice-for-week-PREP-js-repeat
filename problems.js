@@ -22,6 +22,9 @@ function doubler(nums) {
     the original array is multiplied by 2. */
     // Your code here
     console.log(nums)
+    for (let i=0; i<nums.length; i++) {
+        console.log(nums[i]*2)
+    }
 
 };
 
