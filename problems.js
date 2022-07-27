@@ -1,23 +1,28 @@
 function divideByThree(num) {
     /* Returns the passed in number argument divided by three. */
     // Your code here
+    return num/3
 };
 
 function averageOfTwo(num1, num2) {
     /* Returns the average of two numbers, num1 and num2. */
     // Your code here
+    return (num1+num2)/2
 };
 
 function averageOfFour(num1, num2, num3, num4) {
     /* Takes in four numbers. The function should return the average of all of
     the numbers. */
     // Your code here
+    return (num1+num2+num3+num4)/4
 };
 
 function doubler(nums) {
     /* Takes an array of numbers and returns a new array where every element of
     the original array is multiplied by 2. */
     // Your code here
+    console.log(nums)
+
 };
 
 function combineArrays(arr1, arr2) {
