@@ -21,7 +21,11 @@ function doubler(nums) {
     /* Takes an array of numbers and returns a new array where every element of
     the original array is multiplied by 2. */
     // Your code here
-    console.log(nums)
+    const numsMultiply = [];
+    for (let i=0; i<nums.length; i++) {
+        numsMultiply.push(nums[i]*2);
+    }
+    return numsMultiply;
 
 };
 
