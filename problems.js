@@ -35,6 +35,8 @@ function combineArrays(arr1, arr2) {
     calling this method won't permanently change, also known as **mutate**,
     either array. */
     // Your code here
+    const newArray = arr1.concat(arr2);
+    return newArray;
 };
 
 function wordWithinArray(word, arr) {
@@ -42,6 +44,7 @@ function wordWithinArray(word, arr) {
     boolean that returns true if that string is located inside of the array, or
     false if it does not. Use `Array.indexOf`. */
     // Your code here
+    
 };
 
 function echo(str) {
