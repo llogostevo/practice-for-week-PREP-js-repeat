@@ -111,7 +111,7 @@ function isSubString(searchString, subString) {
     `true` if `subString` is a part of the`searchString`, regardless of upper
     or lower case, and `false` if otherwise. */
     // Your code here
-    return ((searchString.toLowerCase().indexOf(subString.toLowerCase())) != -1)
+    return ((subString != '') && (searchString.toLowerCase().indexOf(subString.toLowerCase())) != -1)
 
 };
 
@@ -134,6 +134,18 @@ function aCounter(word) {
     return count;
     */
     // Your code here
+    let count = 0;
+
+    for (let index=0; index < word.length; index++) {
+
+        let char = word[index];
+        if (char === "a" || char === "A") {
+            count += 1;
+            }
+
+    }
+    return count;
+
 };
 
 module.exports = {
